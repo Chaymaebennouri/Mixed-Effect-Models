@@ -73,6 +73,7 @@ ggplot(sleepstudy, aes(x = Days, y = residuals(ml1))) +
   labs(title = "Residuals vs Days (ml1)", 
        x = "Days", 
        y = "Residuals")
+#this residual analysis indicates that the model provides a reasonably good fit to the data.
 
 ggplot(sleepstudy, aes(x = Days, y = residuals(ml2))) +
   geom_point() +
@@ -80,3 +81,4 @@ ggplot(sleepstudy, aes(x = Days, y = residuals(ml2))) +
   labs(title = "Residuals vs Days (ml2)", 
        x = "Days", 
        y = "Residuals")
+# This residuals plot provides a clear indication that the model assumptions may be satisfied, and the model is likely to provide accurate predictions.
