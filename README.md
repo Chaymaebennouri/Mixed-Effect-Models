@@ -1,9 +1,13 @@
 "# Mixed-Effect-Models" 
+
 Mixed Effects Models in R
+
 Objective
-Apply your understanding of Mixed Effects Models by performing a comprehensive analysis on a real-world dataset
-using R.
+
+Apply your understanding of Mixed Effects Models by performing a comprehensive analysis on a real-world dataset using R.
+
 Dataset:
+
 Use the "sleepstudy" dataset that comes with R. This dataset contains reaction times of subjects in a sleep
 study. The main variables are `Reaction` (reaction time) and `Days` (number of days of sleep deprivation).
 The study is looking at the effects of sleep deprivation on psychomotor performance (Belenky et al., 2003).
@@ -15,7 +19,9 @@ The dataset contains eighteen participants from the three-hour sleep condition. 
 participants performed a ten-minute "psychomotor vigilance test" where they had to monitor a display and
 press a button as quickly as possible each time a stimulus appeared. The dependent measure in the dataset
 is the participant's average response time (RT) on the task for that day.
+
 Tasks:
+
 1. Data Exploration.
 a. Load the "sleepstudy" dataset.
 b. Explore the structure of the dataset.
